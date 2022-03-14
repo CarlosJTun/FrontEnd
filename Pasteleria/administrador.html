@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos - PP Pasteles</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+    /* Estilo del Header */
+    header {
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        font-size: 30px;
+        color: whitesmoke;
+        font-family: 'Great Vibes', cursive;
+        letter-spacing: 0.30em;
+    }
+
+    #navegador ul{
+        list-style-type: none;
+        text-align: center;
+    }
+
+    #navegador li{
+        display: inline;
+        text-align: center;
+        margin: 0 10px 0 0;
+    }
+
+    footer {
+        background-color: saddlebrown;
+        padding: 10px;
+        text-align: center;
+        color: whitesmoke;
+    }
+
+    #navegador li a {
+        padding: 3px 10px 3px 10px;
+        color: #666;
+        background-color: #eeeeee;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+
+    #navegador li a:hover{
+        background-color: #333333;
+        color: #ffffff;
+    }
+
+    #contenido ::after{
+        content: "";
+        margin: 10px;
+        display: inline-block;
+        text-align: center;
+        clear: both;
+        height: auto;
+        width: auto;
+        
+    }
+
+    td {
+        text-align: center;
+    }
+
+    /* Responsive 
+    @media (max-width: 600px) {
+        contenido {
+            width: 100%;
+            height: auto;
+        }
+    }
+*/
+
+</style>
+</head>
+<body>
+    <header>
+        <img src="Logotipo.png" alt="Logotipo" width="364px" height="220px">
+    </header>
+        <div id="navegador">
+            <ul>
+            <li><a href="#">Catálogo Pasteles</a></li>
+            <li><a href="#">Opciones Decoración</a></li>
+            <li><a href="#">Pedido</a></li>
+            <li><a href="#">Administrador</a></li>
+            </ul>
+        </div>
+        <div id="contenido">
+            
+
+
+            <h1>Pedidos de los Clientes</h1>
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Dirección</th>
+                    <th>Teléfono</th>
+                    <th>Correo Electrónico</th>
+                    <th>Tamaño</th>
+                    <th>Sabores</th>
+                    <th>Adornos</th>
+                </tr>
+                <tr>
+                    <td>Guadalupe Galicia</td>
+                    <td>C. 24 No. 4</td>
+                    <td>555-123-4587</td>
+                    <td>lupi@correo.com</td>
+                    <td>Grande</td>
+                    <td>Fresa y Uva</td>
+                    <td>Pajarillos</td>
+                </tr>
+                <tr>
+                    <td>Pedro Liandro</td>
+                    <td>C. Naranja No. 33</td>
+                    <td>555-221-4587</td>
+                    <td>pedru@correo.com</td>
+                    <td>Chico</td>
+                    <td>Uva</td>
+                    <td>Concha</td>
+                </tr>
+                <tr>
+                    <td>Maria Daniela</td>
+                    <td>C. Roca No. 88</td>
+                    <td>555-211-4677</td>
+                    <td>mariadani@correo.com</td>
+                    <td>Grande</td>
+                    <td>Cereza, Uva y Fresa</td>
+                    <td>Cinco y Pajarillos</td>
+                </tr>
+                <tr>
+                    <td>José Gonzalez</td>
+                    <td>C. Lirio No. 8</td>
+                    <td>555-551-4478</td>
+                    <td>jojojo@correo.com</td>
+                    <td>Mediano</td>
+                    <td>Cereza y Fresa</td>
+                    <td>Concha</td>
+                </tr>
+                
+            </table>
+
+
+
+            <h1>Inventario Actual</h1>
+            <table>
+                <tr>
+                    <th>Descripción</th>
+                    <th>Cantidad Actual</th>
+                    <th>Requerido</th>
+                    <th>Saldo</th>
+                    <th>Solicitar</th>
+                </tr>
+                <tr>
+                    <td>Sabor Fresa</td>
+                    <td>10</td>
+                    <td>3</td>
+                    <td>7</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>Sabor Cereza</td>
+                    <td>25</td>
+                    <td>2</td>
+                    <td>23</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Sabor Uva</td>
+                    <td>11</td>
+                    <td>3</td>
+                    <td>8</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <td>Adorno Pajarillos</td>
+                    <td>10</td>
+                    <td>2</td>
+                    <td>8</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Adorno Dame Cinco</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td>Adorno Concha</td>
+                    <td>18</td>
+                    <td>2</td>
+                    <td>16</td>
+                    <td>4</td>
+                </tr>
+            </table>
+
+
+
+
+        </div>
+
+    
+    
+    <footer>
+        <p>
+            Los mejores pasteles que puedes conseguir en cualquier parte del mundo.
+        </p>
+        <p>C. Dulce, No. 5 Col. Galletas. Ciudad de Chocolate. Tel.: 455-552-55-55</p>
+        <p>Pide 24hrs en Línea. - Horario de Atención en Local: 10am a 5pm</p>
+    </footer>
+
+
+</body>
+</html>
